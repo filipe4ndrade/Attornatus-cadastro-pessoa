@@ -61,6 +61,11 @@ public class PessoaResource {
 		return ResponseEntity.ok().body(obj.getEnderecos());
 	}
 	
+	@GetMapping(value = "/{id}/enderecos/principal")
+	public ResponseEntity<Endereco> enderecoPrincipal(@PathVariable Long id){
+		Pessoa obj = service.consultarPessoa(id);
+		return ResponseEntity.ok().body(obj.getEnderecos().get(0));
+	}
 
 	
 }
