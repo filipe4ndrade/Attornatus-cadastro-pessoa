@@ -22,7 +22,7 @@ public class Pessoa implements Serializable {
 	private Long id;
 	private String nome;
 	
-	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
 	private Date dataNascimento;
 
 	public Pessoa() {
