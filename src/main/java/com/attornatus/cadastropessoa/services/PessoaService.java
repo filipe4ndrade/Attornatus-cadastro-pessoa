@@ -6,6 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.attornatus.cadastropessoa.entities.Endereco;
 import com.attornatus.cadastropessoa.entities.Pessoa;
 import com.attornatus.cadastropessoa.repositories.PessoaRepository;
 import com.attornatus.cadastropessoa.services.exception.ResourceNotFoundException;
@@ -41,4 +42,7 @@ public class PessoaService {
 			throw new ResourceNotFoundException(id);
 		}
 	}
+	
+
+	
 }

@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import com.attornatus.cadastropessoa.entities.Endereco;
 import com.attornatus.cadastropessoa.entities.Pessoa;
 import com.attornatus.cadastropessoa.services.PessoaService;
 
@@ -52,5 +53,14 @@ public class PessoaResource {
 		obj = service.editarPessoa(id, obj);
 		return ResponseEntity.ok().body(obj);
 	}
+	
+
+	@GetMapping(value = "/{id}/enderecos")
+	public ResponseEntity<List<Endereco>> listarEnderecos(@PathVariable Long id){
+		Pessoa obj = service.consultarPessoa(id);
+		return ResponseEntity.ok().body(obj.getEnderecos());
+	}
+	
+
 	
 }

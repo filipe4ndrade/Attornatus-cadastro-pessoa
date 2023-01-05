@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.attornatus.cadastropessoa.entities.Pessoa;
-import com.attornatus.cadastropessoa.services.PessoaService;
+import com.attornatus.cadastropessoa.entities.Endereco;
+import com.attornatus.cadastropessoa.services.EnderecoService;
 
 @RestController
 @RequestMapping(value = "/enderecos")
@@ -21,17 +21,19 @@ public class EnderecoResource {
 	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 	
 	@Autowired
-	private PessoaService service;
+	private EnderecoService service;
 	
 	@GetMapping
-	public ResponseEntity<List<Pessoa>> listarPessoas() throws ParseException{
-		List<Pessoa> list = service.listarPessoas();
+	public ResponseEntity<List<Endereco>> listarEnderecos() throws ParseException{
+		List<Endereco> list = service.listarEnderecos();
 		return ResponseEntity.ok().body(list);
 	}
 	
 	@GetMapping(value = "/{id}")
-	public ResponseEntity<Pessoa> consultarPessoa(@PathVariable Long id){
-		Pessoa obj = service.consultarPessoa(id);
+	public ResponseEntity<Endereco> consultarEndereco(@PathVariable Long id){
+		Endereco obj = service.consultarEndereco(id);
 		return ResponseEntity.ok().body(obj);
 	}
+	
+	
 }
