@@ -1,4 +1,4 @@
-package com.attornatus.cadastropessoa.entities.resources;
+package com.attornatus.cadastropessoa.resources;
 
 import java.net.URI;
 import java.text.ParseException;

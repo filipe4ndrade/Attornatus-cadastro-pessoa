@@ -1,4 +1,4 @@
-package com.attornatus.cadastropessoa.entities.resources.exceptions;
+package com.attornatus.cadastropessoa.resources.exceptions;
 
 import java.io.Serializable;
 

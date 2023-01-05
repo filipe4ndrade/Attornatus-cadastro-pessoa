@@ -1,4 +1,4 @@
-package com.attornatus.cadastropessoa.entities.resources;
+package com.attornatus.cadastropessoa.resources;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
