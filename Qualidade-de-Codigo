@@ -1,0 +1,19 @@
+Qualidade de código
+
+1.	Durante a implementação de uma nova funcionalidade de software solicitada, quais critérios você avalia e implementa para garantia de qualidade de software?
+
+Existem vários critérios que eu consideraria ao implementar uma nova funcionalidade de software para garantir a qualidade do software. Alguns desses critérios incluem:
+A funcionalidade deve ser fácil de testar, de modo que possa ser verificado se está funcionando corretamente; deve ser fácil de manter e modificar no futuro, se 
+necessário; deve ser fácil de usar e entender para os usuários finais; deve executar de forma eficiente e não deve impactar negativamente o desempenho do sistema;
+deve ser segura e protegida contra ameaças externas; deve seguir as normas e regulamentações aplicáveis e A funcionalidade deve ser capaz de lidar com um aumento no 
+volume de usuários ou dados sem afetar o desempenho.
+
+
+2.	Em qual etapa da implementação você considera a qualidade de software?
+
+A qualidade de software deve ser considerada durante todo o processo de implementação de um software. Isso inclui desde o planejamento até o teste e implantação da funcionalidade. Algumas das etapas específicas em que a qualidade de software deve ser considerada incluem:
+1.	Planejamento: Durante o planejamento, é importante definir os critérios de qualidade e as metas de qualidade para a funcionalidade que está sendo implementada. Isso ajudará a garantir que a qualidade seja considerada em todas as etapas do processo.
+2.	Desenvolvimento: Durante o desenvolvimento, é importante seguir boas práticas de codificação e utilizar técnicas de teste para garantir que a funcionalidade esteja funcionando corretamente.
+3.	Teste: Durante o teste, é importante verificar se a funcionalidade atende aos critérios de qualidade definidos e se está funcionando corretamente. Isso pode incluir testes de unidade, testes de integração e testes de aceitação.
+4.	Implantação: Antes de implantar a funcionalidade em produção, é importante garantir que ela atenda aos critérios de qualidade e que esteja pronta para uso pelos usuários finais.
+Em resumo, a qualidade de software deve ser considerada em todas as etapas do processo de implementação de um software para garantir que o software seja de alta qualidade e atenda às expectativas dos usuários.
